@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab10.MainPage" Title="                              Labo10">
+    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="#DAF7A6" Spacing="25">
+        <Label Text="Hola Carlos Herrera" HorizontalOptions="Center" VerticalOptions="Center"  Padding="20" FontSize="18" TextColor="Black"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="50" Padding="25">
+            <Button x:Name="Item1" Text="BindingModeDemo" Padding="25" BorderColor="#D2B4DE" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item2" Text="ListViewDemo" Padding="25" BorderColor="#D2B4DE" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item3" Text="PickerDemo" Padding="25" BorderColor="#D2B4DE" BorderWidth="7" CharacterSpacing="3"></Button>
+            <Button x:Name="Item4" Text="ViewToViewDemo" Padding="25" BorderColor="#D2B4DE" BorderWidth="7" CharacterSpacing="3"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
